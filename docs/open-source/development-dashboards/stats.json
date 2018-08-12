@@ -1,0 +1,13 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": "component---src-pages-index-js-180870837c770e4df6ea.js",
+    "path---": "path----557518bd178906f8d58a.js",
+    "component---src-layouts-index-js": "component---src-layouts-index-js-bbee90b1d76f4c774d51.js",
+    "path---index": "path---index-a0e39f21c11f6a62c5ab.js",
+    "commons": "commons-f97a55d41e78aefb178e.js",
+    "app": [
+      "app-0fd40ecd9fde9790b393.js",
+      "build-js-styles.css"
+    ]
+  }
+}

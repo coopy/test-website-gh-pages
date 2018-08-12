@@ -1,0 +1,596 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Radium - A React Component Styling Library</title>
+  <meta name="description" content="A powerful set of tools for managing inline styles on React elements">
+  <meta property="og:title" content="Radium" />
+  <meta property="og:site_name" content="Radium" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://formidable.com/open-source/radium/" />
+  <meta property="og:image" content="./static/og-image.jpg" />
+  <meta property="og:description" content="A powerful set of tools for managing inline styles on React elements." />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./static/favicon.ico" type="image/x-icon">
+  <base href="/open-source/radium/" /> 
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600" rel="stylesheet" type="text/css">
+  <link href="https://formidable.com/open-source/fonts.css" rel="stylesheet" type="text/css">
+  <link href="./static/prism-github-dark.css" rel="stylesheet" type="text/css">
+  <link href="./styles.e6831b0c2303b2542b5e.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="content" style="height: 100vh"><div style="display:flex;flex-direction:column;height:100%;" data-radium="true" data-reactroot="" data-reactid="1" data-react-checksum="-1153940262"><style data-reactid="2">*, *:before, *:after{box-sizing: inherit;}html{background-color: #050505;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;}body{background-color: #fafafa;
+box-sizing: border-box;
+color: #050505;
+font-family: 'tiempos', 'Source Serif Pro', Georgia, serif;
+margin: 0;}html, body{overflow-x: hidden;}main{font-size: 16px;
+line-height: 1.4;}article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{display: block;}h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dd, p, figure, pre, table, fieldset, hr, .highlight{margin-top: 1.25rem;
+margin-bottom: 0;}ul ul{margin-top: 0;}h1, h2, h3, h4, h5, h6, hgroup{font-family: 'sharp', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: normal;}p{font-size: 1rem;
+line-height: 1.5;}p > code, li > code, h1 > code, h2 > code, h3 > code, h4 > code, h5 > code, h6 > code{padding: 0px 5px;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+margin: 0px;
+font-size: 85%;
+background: rgba(0,0,0,0.05);
+border-radius: 3px;}li{font-size: 1rem;
+line-height: 1.8;}img{max-width: 100%;}h1{font-size: 3rem;}h2{font-size: 2rem;}h3{font-size: 1.5rem;}h4{font-size: 1.3125rem;}svg{fill: currentColor;}#a-react-component-styling-library, #radium{display: none;}@media only screen and (min-width: 44.063em){p{font-size: 1.2rem;}li{font-size: 1.2rem;}h1{font-size: 3.75rem;}h2{font-size: 2.75rem;}h3{font-size: 2rem;}h4, h5, h6{font-size: 1.5rem;}}.Documentation{max-width: 800px;
+margin: 0 auto;
+padding: 20px 20px 40px;
+color: #272727;}.Documentation > h1{margin-top: 0;}.Documentation pre{padding: 16px;
+overflow: auto;
+font-size: .9em;
+line-height: 1.45;
+background-color: #f5f5f5;
+border-radius: 3px;}.Documentation p{font-family: 'tiempos', 'Source Serif Pro', Georgia, serif;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;}.Documentation a{color: #bd1e13;
+cursor: pointer;
+display: inline;
+transition: color 195ms ease-in;
+text-decoration: none;
+:hover: [object Object];}.Documentation li{-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;}.Documentation h1, .Documentation h2, .Documentation h3, .Documentation h4, .Documentation h5{-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;}.Documentation code[class*='language-'], .Documentation pre[class*='language-']{font-family: 'Source Code Pro', Consolas, 'Inconsolata', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Courier New', 'Courier', monospace;
+font-size: .9em;
+line-height: 1.375;
+direction: ltr;
+text-align: left;
+white-space: pre;
+word-spacing: normal;
+word-break: normal;
+tab-size: 2;
+webkit-hyphens: none;
+moz-hyphens: none;
+-ms-hyphens: none;
+hyphens: none;
+background: transparent;}.react-live-error{background: #DA817C;
+color: #fafafa;
+font-family: 'akkurat', 'Courier New', 'Courier', monospace;
+font-size: 1rem;
+font-weight: normal;
+line-height: 1.2;
+overflow: scroll;
+padding: 20px;
+text-align: left;
+white-space: pre;
+width: 100%;}.react-live-preview{position: relative;
+text-align: center;
+order: 0;
+padding: 40px 20px;
+background: #eee;
+border: 1px solid #cecece;}.prism-code.LiveEditor{background: #3C424D;
+box-sizing: border-box;
+color: #fafafa;
+font-size: .9em;
+height: 350px;
+margin: 0;
+overflow: scroll;
+position: relative;
+padding: 10px;
+transition: background-color 195ms ease-in;}.prism-code.LiveEditor:focus{background: #2F353F;
+transition: background 225ms ease-out;}</style><div style="display:flex;flex-direction:column;height:100%;" data-radium="true" data-reactid="3"><div data-reactid="4"><!-- react-empty: 5 --><div data-reactid="6"><div class="site-header isOpen-false" data-reactid="7"><a href="/" class="site-header__logo" title="Formidable" data-reactid="8"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 18" aria-labelledby="logotype-formidable" class="logo-type" data-reactid="9"><title id="logotype-formidable" data-reactid="10">Formidable</title><path d="M3.685,8.038h5.26v2.88H3.715v5.3H0.535V2.048h9.13v2.99H3.685v3Zm16.22,3.2a5.27,5.27,0,1,1-5.28-5.26q0.142,0,.284,0A5.13,5.13,0,0,1,19.9,11.238Zm-3.04,0a2.25,2.25,0,1,0-4.48,0A2.252,2.252,0,1,0,16.865,11.238Zm6.95-3.62V6.328h-2.94v9.93h3v-4.38c0-2,1.1-2.7,2.32-2.7a4.12,4.12,0,0,1,1,.1V6.328a3,3,0,0,0-.8-0.1A2.81,2.81,0,0,0,23.815,7.618ZM40.347,5.986A3.479,3.479,0,0,0,39.8,5.978a3.41,3.41,0,0,0-3.08,1.56,3.07,3.07,0,0,0-2.94-1.56,3.46,3.46,0,0,0-2.86,1.44V6.328h-2.9v9.93h3V10.5a1.61,1.61,0,0,1,1.5-1.717q0.072,0,.144,0a1.51,1.51,0,0,1,1.6,1.68v5.76h3v-5.74a1.61,1.61,0,0,1,1.517-1.7q0.072,0,.143,0a1.51,1.51,0,0,1,1.58,1.68v5.76h2.98V9.778A3.48,3.48,0,0,0,40.347,5.986Zm4.708,10.221h3.04V6.278h-3.04v9.93Zm1.52-14.74h-0.02A1.779,1.779,0,1,0,46.575,1.468Zm12.95,13.04c0,0.9.08,1.56,0.08,1.78h-2.92a6.9,6.9,0,0,1-.08-1,3.21,3.21,0,0,1-2.66,1.18q-0.155,0-.309-0.009a4.92,4.92,0,0,1-4.611-5.211q-0.011-.155-0.011-0.311a4.85,4.85,0,0,1,4.831-4.869c1.68,0,2.44.62,2.68,1V1.748h3v12.76Zm-2.96-3.27a2.25,2.25,0,1,0-4.48,0,2.24,2.24,0,0,0,2.24,2.51v-0.03A2.24,2.24,0,0,0,56.565,11.238Zm12.94,3.41a9.746,9.746,0,0,0,.12,1.54h-2.74a4.77,4.77,0,0,1-.1-1.12,3.48,3.48,0,0,1-6.24-1.62,3.05,3.05,0,0,1,2.94-3l2.34-.36h0.041a0.68,0.68,0,0,0,.679-0.681q-0.006-.055-0.016-0.11a1.23,1.23,0,0,0-1.444-.97,1.6,1.6,0,0,0-1.68,1.49l-2.64-.54c0.12-1.42,1.44-3.3,4.36-3.3,3.22,0,4.4,1.84,4.4,3.84H69.5v4.83Zm-2.98-2.33v-0.4l-1.88.3h-0.02a1.1,1.1,0,0,0-1.1,1.1,1,1,0,0,0,1.18,1A1.71,1.71,0,0,0,66.525,12.318Zm15.04-1.1c0,3.04-1.96,5.22-4.74,5.22a3.2,3.2,0,0,1-2.8-1.34v1.12h-2.94V1.748h3v5.47a3.57,3.57,0,0,1,2.86-1.18C79.825,6.038,81.565,8.178,81.565,11.218Zm-3.04.02a2.26,2.26,0,1,0-4.5,0,2.26,2.26,0,0,0,2.26,2.48A2.23,2.23,0,0,0,78.525,11.238Zm4.01,4.98h3.04V1.748h-3.04v14.47Zm13.87-4.23h-6.92a2.15,2.15,0,0,0,2.26,1.92,1.92,1.92,0,0,0,2-1.3l2.54,0.72a4.46,4.46,0,0,1-4.64,3.19q-0.184,0-.367,0a5.06,5.06,0,0,1-4.813-5.3q-0.006-.123-0.006-0.246a5,5,0,0,1,5.006-4.994c3.1,0,5,1.9,5,5.1A6.118,6.118,0,0,1,96.4,11.988Zm-2.86-1.91q0-.068-0.012-0.136A1.78,1.78,0,0,0,91.545,8.4a1.89,1.89,0,0,0-2,1.68h4Z" data-reactid="11"></path></svg></a><nav class="site-header__nav display-desktop-only" data-reactid="12"><a href="/about/" class="site-header__nav-links inactive" data-reactid="13">What We Do</a><a href="/work/" class="site-header__nav-links inactive" data-reactid="14">Our Work</a><a href="/careers/" class="site-header__nav-links inactive" data-reactid="15">Careers</a><a href="/open-source/" class="site-header__nav-links active" data-reactid="16">Open Source</a><a href="/blog/" class="site-header__nav-links inactive" data-reactid="17">Journal</a><a href="/contact/" class="site-header__nav-links inactive" data-reactid="18">Contact</a></nav><div class="site-header__nav display-mobile-only" data-reactid="19"><button class="site-header__menu-toggle" title="navigation menu" aria-label="navigation menu" role="button" data-reactid="20"><!-- react-text: 21 -->Menu<!-- /react-text --><span class="site-header__menu-text" data-reactid="22"></span><span class="site-header__menu-bar" data-reactid="23"></span></button></div></div><nav class="site-menu" aria-hidden="true" data-reactid="24"><ul class="site-menu__nav" data-reactid="25"><li class="site-menu__nav-item" data-reactid="26"><a href="/about/" class="site-menu__nav-item-link inactive" data-reactid="27">What We Do</a></li><li class="site-menu__nav-item" data-reactid="28"><a href="/work/" class="site-menu__nav-item-link inactive" data-reactid="29">Our Work</a></li><li class="site-menu__nav-item" data-reactid="30"><a href="/careers/" class="site-menu__nav-item-link inactive" data-reactid="31">Careers</a></li><li class="site-menu__nav-item" data-reactid="32"><a href="/open-source/" class="site-menu__nav-item-link active" data-reactid="33">Open Source</a></li><li class="site-menu__nav-item" data-reactid="34"><a href="/blog/" class="site-menu__nav-item-link inactive" data-reactid="35">Journal</a></li><li class="site-menu__nav-item" data-reactid="36"><a href="/contact/" class="site-menu__nav-item-link inactive" data-reactid="37">Contact</a></li></ul></nav></div><header class="formidableHeader isDark" data-reactid="38"><div class="formidableHeader-container" data-reactid="39"><div class="formidableHeader-logos" data-reactid="40"></div><div class="default" data-radium="true" data-reactid="41"><a style="color:auto;cursor:pointer;display:inline;transition:color 195ms ease-in;text-decoration:none;" href="/docs" data-radium="true" data-reactid="42">Docs</a><a style="color:auto;cursor:pointer;display:inline;transition:color 195ms ease-in;text-decoration:none;" to="https://github.com/FormidableLabs/radium/issues" href="https://github.com/FormidableLabs/radium/issues" data-radium="true" data-reactid="43">Issues</a><a style="color:auto;cursor:pointer;display:inline;transition:color 195ms ease-in;text-decoration:none;" to="https://github.com/FormidableLabs/radium" href="https://github.com/FormidableLabs/radium" data-radium="true" data-reactid="44">View Source on GitHub</a></div></div></header></div><main style="height:100%;display:flex;flex-flow:row nowrap;" data-radium="true" data-reactid="45"><aside style="padding:10px;background-color:#050505;background-image:url(./static/bg-radium.jpg);background-repeat:no-repeat;background-size:cover;background-position:bottom left;z-index:1;height:100%;display:flex;flex:0 0 230px;flex-direction:column;transform:translateX(0px);transition:all 300ms ease;" data-radium="true" data-reactid="46"><header style="display:flex;flex-wrap:wrap;" data-radium="true" data-reactid="47"><h2 style="color:#eee;font-family:&#x27;sharp&#x27;, &#x27;Helvetica Neue&#x27;, Helvetica, Arial, sans-serif;width:100%;margin-top:10px;-webkit-font-smoothing:antialiased;" data-radium="true" data-reactid="48">Radium</h2><span style="margin-top:10px;color:#eee;font-family:&#x27;akkurat&#x27;, &#x27;Courier New&#x27;, &#x27;Courier&#x27;, monospace;font-size:.8rem;" data-radium="true" data-reactid="49">Radium is a set of tools to manage inline styles on React elements. It gives you powerful styling capabilities without CSS.</span></header><ul role="menu" style="padding:0px;list-style:none;font-family:&#x27;akkurat&#x27;, &#x27;Courier New&#x27;, &#x27;Courier&#x27;, monospace;" data-radium="true" data-reactid="50"><li style="font-size:1rem;-webkit-font-smoothing:antialiased;" data-radium="true" data-reactid="51"><a style="color:#cecece;cursor:pointer;display:inline;transition:color 195ms ease-in;text-decoration:none;" href="/" data-radium="true" data-reactid="52">Radium Home</a></li><li style="font-size:1rem;-webkit-font-smoothing:antialiased;" data-radium="true" data-reactid="53"><a style="color:#cecece;cursor:pointer;display:inline;transition:color 195ms ease-in;text-decoration:none;" href="/docs/getting-started" data-radium="true" data-reactid="54">Getting Started</a></li><li style="font-size:1rem;-webkit-font-smoothing:antialiased;" data-radium="true" data-reactid="55"><a style="color:#cecece;cursor:pointer;display:inline;transition:color 195ms ease-in;text-decoration:none;" href="/docs/guide" data-radium="true" data-reactid="56">Using Radium</a></li><li style="font-size:1rem;-webkit-font-smoothing:antialiased;" data-radium="true" data-reactid="57"><a style="color:#fafafa;cursor:pointer;display:inline;transition:color 195ms ease-in;text-decoration:none;" href="/docs/api" data-radium="true" data-reactid="58">API Docs</a></li><li style="font-size:1rem;-webkit-font-smoothing:antialiased;" data-radium="true" data-reactid="59"><a style="color:#cecece;cursor:pointer;display:inline;transition:color 195ms ease-in;text-decoration:none;" href="/docs/faq" data-radium="true" data-reactid="60">Radium FAQ</a></li></ul></aside><section style="display:flex;flex-direction:column;padding:0px;z-index:2;box-shadow:-3px -3px 10px rgba(0,0,0,.5);flex:1 1 auto;margin-left:0px;width:100%;transition:all 300ms ease;" data-radium="true" data-reactid="61"><header style="display:flex;justify-content:space-between;flex:1 0 50px;padding:10px;border-bottom:1px solid #eee;background:#fefefe;" data-radium="true" data-reactid="62"><button style="border:none;background:transparent;font-family:&#x27;akkurat&#x27;, &#x27;Courier New&#x27;, &#x27;Courier&#x27;, monospace;font-size:14px;transition:color 225ms ease-out , border-color 225ms ease-out;cursor:pointer;outline:none;-webkit-user-select:none;" data-radium="true" data-reactid="63">Menu</button><a style="color:#bd1e13;cursor:pointer;display:inline;transition:color 195ms ease-in;text-decoration:none;" href="/" data-radium="true" data-reactid="64"><div style="display:block;height:30px;width:30px;cursor:pointer;" data-radium="true" data-reactid="65"><svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" style="width:100%;max-width:360px;height:inherit"><path d="M209.541 262.773l-29.167-55.742a65.382 65.382 0 0 1-6.767.234c-5.833 0-9.1-.234-14.7-.466v55.974H119.24V93.448a435.249 435.249 0 0 1 50.4-2.8c53.2 0 74.2 25.422 74.2 56.675 0 20.291-10.966 38.484-29.4 49.446l40.132 66h-45.031zM174.308 126.1a82.5 82.5 0 0 0-15.4 1.165v47.113a120.509 120.509 0 0 0 12.6.7c18.9 0 31.033-9.1 31.033-26.355 0-14.223-11.2-22.623-28.233-22.623zM322.147 331.468h-2.185v-1.522h6.254v1.522h-2.222v6.494h-1.847v-6.494zm11.883 3.426a87.232 87.232 0 0 1-.073-3.3h-.036a45.469 45.469 0 0 1-.9 3.1l-.991 3.129h-1.436l-.869-3.105a35.934 35.934 0 0 1-.736-3.128h-.025c-.048 1.082-.083 2.32-.144 3.318l-.146 3.045h-1.7l.519-8.016h2.45l.8 2.676c.254.928.508 1.927.688 2.867h.038c.229-.928.507-1.987.772-2.879l.869-2.664h2.4l.446 8.016h-1.8z" fill="#272727" fill-rule="evenodd"/><path d="M0 0v360h360V0H0zm348.175 348.175H11.825V11.825h336.35v336.35z" fill="#272727" fill-rule="evenodd"/></svg></div></a></header><section style="overflow-y:scroll;height:calc(100vh - 50px);" class="DocumentContainer" data-radium="true" data-reactid="66"><div class="Documentation" data-reactid="67"><h1 id="radium-api">Radium API</h1>
+<p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="/open-source/radiumdocs/api#sample-style-object">Sample Style Object</a></li>
+<li><a href="/open-source/radiumdocs/api#radium">Radium</a>
+<ul>
+<li><a href="/open-source/radiumdocs/api#configmatchmedia">config.matchMedia</a></li>
+<li><a href="/open-source/radiumdocs/api#configplugins">config.plugins</a></li>
+<li><a href="/open-source/radiumdocs/api#configuseragent">config.userAgent</a></li>
+</ul>
+</li>
+<li><a href="/open-source/radiumdocs/api#getstate">getState</a></li>
+<li><a href="/open-source/radiumdocs/api#keyframes">keyframes</a></li>
+<li><a href="/open-source/radiumdocs/api#plugins">Plugins</a></li>
+<li><a href="/open-source/radiumdocs/api#style-component">Style Component</a></li>
+<li><a href="/open-source/radiumdocs/api#styleroot-component">StyleRoot Component</a></li>
+<li><a href="/open-source/radiumdocs/api#testmode">TestMode</a></li>
+</ul>
+<h2 id="sample-style-object">Sample Style Object</h2>
+<pre><code class="language-jsx">var styles = {
+  base: {
+    backgroundColor: '#0074d9',
+    border: 0,
+    borderRadius: '0.3em',
+    color: '#fff',
+    cursor: 'pointer',
+    fontSize: 16,
+    outline: 'none',
+    padding: '0.4em 1em',
+
+    ':hover': {
+      backgroundColor: '#0088FF'
+    },
+
+    ':focus': {
+      backgroundColor: '#0088FF'
+    },
+
+    ':active': {
+      backgroundColor: '#005299',
+      transform: 'translateY(2px)',
+    },
+
+    // Media queries must start with @media, and follow the same syntax as CSS
+    '@media (min-width: 992px)': {
+      padding: '0.6em 1.2em'
+    },
+
+    '@media (min-width: 1200px)': {
+      padding: '0.8em 1.5em',
+
+      // Media queries can also have nested :hover, :focus, or :active states
+      ':hover': {
+        backgroundColor: '#329FFF'
+      }
+    }
+  },
+
+  red: {
+    backgroundColor: '#d90000',
+
+    ':hover': {
+      backgroundColor: '#FF0000'
+    },
+
+    ':focus': {
+      backgroundColor: '#FF0000'
+    },
+
+    ':active': {
+      backgroundColor: '#990000'
+    }
+  }
+};
+</code></pre>
+<h2 id="radium">Radium</h2>
+<p><code>Radium</code> itself is a higher-order component, whose job is to:</p>
+<ul>
+<li>Provide initial state</li>
+<li>Process the <code>style</code> attribute after <code>render()</code></li>
+<li>Clean up any resources when the component unmounts</li>
+</ul>
+<p>Usage with <code>class</code>:</p>
+<pre><code class="language-jsx">class MyComponent extends React.Component { ... }
+
+MyComponent = Radium(MyComponent);
+</code></pre>
+<p>Usage with <code>createClass</code>:</p>
+<pre><code class="language-jsx">var MyComponent = React.createClass({ ... });
+export default Radium(MyComponent);
+</code></pre>
+<p><code>Radium</code>'s primary job is to apply interactive or media query styles, but even if you are not using any special styles, the higher order component will still:</p>
+<ul>
+<li>Merge arrays of styles passed as the <code>style</code> attribute</li>
+<li>Automatically vendor prefix the <code>style</code> object</li>
+</ul>
+<p>You can also pass a configuration object to <code>Radium</code>:</p>
+<pre><code class="language-jsx">class MyComponent extends React.Component { ... }
+
+MyComponent = Radium({matchMedia: mockMatchMedia})(MyComponent);
+
+// or with createClass
+
+var MyComponent = React.createClass({ ... });
+module.exports = Radium({matchMedia: mockMatchMedia})(MyComponent);
+</code></pre>
+<p>You may want to have project-wide Radium settings. Simply create a function that
+wraps Radium, and use it instead of <code>Radium</code>:</p>
+<pre><code class="language-jsx">function ConfiguredRadium(component) {
+  return Radium(config)(component);
+}
+
+// Usage
+class MyComponent extends React.Component { ... }
+
+MyComponent = ConfiguredRadium(MyComponent);
+</code></pre>
+<p>Radium can be called any number of times with a config object, and later configs
+will be merged with and overwrite previous configs. That way, you can still
+override settings on a per-component basis:</p>
+<pre><code class="language-jsx">class MySpecialComponent extends React.Component { ... }
+
+MySpecialComponent = ConfiguredRadium(config)(MySpecialComponent);
+</code></pre>
+<p>Alternatively, if the config value can change every time the component is rendered (userAgent, for example), you can pass configuration to any component wrapped in <code>Radium</code> using the <code>radiumConfig</code> prop:</p>
+<pre><code class="language-jsx">&lt;App radiumConfig={{userAgent: req.headers['user-agent']}} /&gt;
+</code></pre>
+<p>The config will be passed down via <a href="https://facebook.github.io/react/docs/context.html">context</a> to all child components. Fields in the <code>radiumConfig</code> prop or context will override those passed into the <code>Radium()</code> function.</p>
+<p>Possible configuration values:</p>
+<ul>
+<li><a href="/open-source/radiumdocs/api#configmatchmedia"><code>matchMedia</code></a></li>
+<li><a href="/open-source/radiumdocs/api#configplugins"><code>plugins</code></a></li>
+<li><a href="/open-source/radiumdocs/api#configuseragent"><code>userAgent</code></a></li>
+</ul>
+<h3 id="configmatchmedia">config.matchMedia</h3>
+<p>Allows you to replace the <code>matchMedia</code> function that Radium uses. The default is <code>window.matchMedia</code>, and the primary use case for replacing it is to use media queries on the server. You'll have to send the width and height of the page to the server somehow, and then use a <a href="https://github.com/azazdeaz/match-media-mock">mock for match media</a> that implements the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia"><code>window.matchMedia</code> API</a>. Your code could look like this:</p>
+<p><strong>Server</strong></p>
+<p>You can require <code>Radium</code> on the server / using CommonJS with:</p>
+<pre><code class="language-jsx">var Radium = require('radium');
+</code></pre>
+<pre><code class="language-jsx">var ConfiguredRadium = require('./configured-radium');
+var matchMediaMock = require('match-media-mock').create();
+ConfiguredRadium.setMatchMedia(matchMediaMock);
+
+app.get('/app/:width/:height', function(req, res) {
+  matchMediaMock.setConfig({
+    type: 'screen',
+    width: req.params.width,
+    height: req.params.height,
+  });
+
+  // Your application code uses `ConfiguredRadium` instead of `Radium`
+  var html = React.renderToString(&lt;RadiumApp /&gt;);
+
+  res.end(html);
+});
+</code></pre>
+<p><strong>ConfiguredRadium.js</strong></p>
+<pre><code class="language-jsx">var Radium = require('radium');
+
+var _matchMedia = null;
+
+function ConfiguredRadium(component) {
+  return Radium({
+    matchMedia: _matchMedia
+  })(component);
+}
+
+ConfiguredRadium.setMatchMedia = function (matchMedia) {
+  _matchMedia = matchMedia;
+};
+
+module.exports = ConfiguredRadium;
+</code></pre>
+<p><strong>MyComponent.js</strong></p>
+<pre><code class="language-jsx">var ConfiguredRadium = require('./configured-radium');
+
+class MyComponent extends React.Component { ... }
+
+MyComponent = ConfiguredRadium(MyComponent);
+</code></pre>
+<p>See <a href="https://github.com/FormidableLabs/radium/pull/146">#146</a> for more info.</p>
+<h3 id="configplugins">config.plugins</h3>
+<p><strong>Array&lt;Plugin&gt;</strong></p>
+<p>Replaces all plugins with the provided set. See <a href="/open-source/radiumdocs/api#plugins">Plugins</a> for more information.</p>
+<p>Because the <code>plugins</code> config replaces all plugins, you have to provide the built-ins if you want to keep the default Radium functionality. A simple example of creating and adding a <code>styleLogger</code> plugin:</p>
+<pre><code class="language-jsx">function styleLogger({componentName, style}) {
+  console.log('Name: ' + componentName, style);
+}
+
+function ConfiguredRadium(component) {
+  return Radium({
+    plugins: [
+      Radium.Plugins.mergeStyleArray,
+      Radium.Plugins.checkProps,
+      Radium.Plugins.resolveMediaQueries,
+      Radium.Plugins.resolveInteractionStyles,
+      Radium.Plugins.keyframes,
+      Radium.Plugins.visited,
+      Radium.Plugins.removeNestedStyles,
+      Radium.Plugins.prefix,
+      styleLogger,
+      Radium.Plugins.checkProps,
+    ],
+  })(component);
+}
+
+// Usage
+class MyComponent extends React.Component { ... }
+
+MyComponent = ConfiguredRadium(MyComponent);
+</code></pre>
+<p>You will typically want to put plugins before the final <code>checkProps</code> so that you can still benefit from the checks it provides. If your plugin might produce other pseudo-style blocks, like <code>@media</code> consumed by <code>resolveMediaQueries</code> or <code>:hover</code> consumed by <code>resolveInteractionStyles</code>, you would want to have your plugin run before those plugins.</p>
+<p>You can of course omit any or all of the built-in plugins, and replace them with your own version. For example, you may want to omit <code>Radium.Plugins.prefix</code> entirely if you aren't using vendor prefixes or are using a <a href="https://github.com/UXtemple/babel-plugin-react-autoprefix">compile-time solution</a> instead.</p>
+<h3 id="configuseragent">config.userAgent</h3>
+<p><strong>string</strong></p>
+<p>Set the user agent passed to <a href="https://github.com/rofrischmann/inline-style-prefixer">inline-style-prefixer</a> to perform prefixing on style objects. Mainly used during server rendering, passed in via the <code>radiumConfig</code> prop. Using express:</p>
+<pre><code class="language-jsx">&lt;App radiumConfig={{userAgent: req.headers['user-agent']}} /&gt;
+</code></pre>
+<p>For a complete example, see <a href="https://github.com/FormidableLabs/radium/blob/master/examples/server.js">examples/server.js</a>.</p>
+<h2 id="getstate">getState</h2>
+<p><strong>Radium.getState(state, elementKey, value)</strong></p>
+<p><em>Note: <code>getState</code> will not work in a stateless component, because even though Radium maintains the state internally, the stateless component does not have access to it, by definition</em></p>
+<p>Query Radium's knowledge of the browser state for a given element key. This is particularly useful if you would like to set styles for one element when another element is in a particular state, e.g. show a message when a button is hovered.</p>
+<p>Note that the target element specified by <code>elementKey</code> must have the state you'd like to check defined in its style object so that Radium knows to add the handlers. It can be empty, e.g. <code>':hover': {}</code>.</p>
+<p>Parameters:</p>
+<ul>
+<li><strong>state</strong> - you'll usually pass <code>this.state</code>, but sometimes you may want to pass a previous state, like in <code>shouldComponentUpdate</code>, <code>componentWillUpdate</code>, and <code>componentDidUpdate</code></li>
+<li><strong>elementKey</strong> - if you used multiple elements, pass the same <code>key=&quot;&quot;</code> or <code>ref=&quot;&quot;</code>. If you only have one element, you can leave it blank (<code>'main'</code> will be inferred)</li>
+<li><strong>value</strong> - one of the following: <code>:active</code>, <code>:focus</code>, and <code>:hover</code></li>
+<li><strong>returns</strong> <code>true</code> or <code>false</code></li>
+</ul>
+<p>Usage:</p>
+<pre><code class="language-jsx">Radium.getState(this.state, 'button', ':hover')
+</code></pre>
+<h2 id="keyframes">keyframes</h2>
+<p><strong>Radium.keyframes(keyframes, [name])</strong></p>
+<p>Create a keyframes animation for use in an inline style. <code>keyframes</code> returns an opaque object you must assign to the <code>animationName</code> property. <code>Plugins.keyframes</code> detects the object and adds CSS to the Radium root's style sheet. Radium will automatically apply vendor prefixing to keyframe styles. In order to use <code>keyframes</code>, you must wrap your application in the <a href="/open-source/radiumdocs/api#styleroot-component"><code>StyleRoot component</code></a>.</p>
+<p><code>keyframes</code> takes an optional second parameter, a <code>name</code> to prepend to the animation's name to aid in debugging.</p>
+<pre><code class="language-jsx">class Spinner extends React.Component {
+  render () {
+    return (
+      &lt;div&gt;
+        &lt;div style={styles.inner} /&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+
+Spinner = Radium(Spinner);
+
+var pulseKeyframes = Radium.keyframes({
+  '0%': {width: '10%'},
+  '50%': {width: '50%'},
+  '100%': {width: '10%'},
+}, 'pulse');
+
+var styles = {
+  inner: {
+    // Use a placeholder animation name in `animation`
+    animation: 'x 3s ease 0s infinite',
+    // Assign the result of `keyframes` to `animationName`
+    animationName: pulseKeyframes,
+    background: 'blue',
+    height: '4px',
+    margin: '0 auto',
+  }
+};
+</code></pre>
+<h2 id="plugins">Plugins</h2>
+<h3 id="built-in-plugins">Built-in Plugins</h3>
+<p>Almost everything that Radium does, except iteration, is implemented as a plugin. Radium ships with a base set of plugins, all of which can be accessed via <code>Radium.Plugins.pluginName</code>. They are called in the following order:</p>
+<ul>
+<li><code>mergeStyleArray</code> - If the <code>style</code> attribute is an array, intelligently merge each style object in the array. Deep merges nested style objects, such as <code>:hover</code>.</li>
+<li><code>checkProps</code> - Performs basic correctness checks, such as ensuring you do not mix longhand and shorthand properties.</li>
+<li><code>resolveMediaQueries</code> - Handles style entries like <code>'@media (...)': { ... }</code>, applying them only when the appropriate media query is hit. Can be configured using <a href="/open-source/radiumdocs/api#configmatchmedia">config.matchMedia</a>.</li>
+<li><code>resolveInteractionStyles</code> - Handles <code>':hover'</code>, <code>':focus'</code>, and <code>':active'</code> styles.</li>
+<li><code>prefix</code> - Uses in-browser detection and a small mapping to add vendor prefixes to CSS properties and values.</li>
+<li><code>checkProps</code> - Same as above, just run after everything else.</li>
+</ul>
+<h3 id="plugin-interface">Plugin Interface</h3>
+<p>All plugins are functions accept a PluginConfig, and return a PluginResult. The annotated flow types follow. A plugin is called once for every <em>rendered element</em> that has a <code>style</code> attribute, for example the <code>div</code> and <code>span</code> in <code>return &lt;div style={...}&gt;&lt;span style={...} /&gt;&lt;/div&gt;;</code>.</p>
+<p><strong>PluginConfig</strong></p>
+<pre><code class="language-jsx">type PluginConfig = {
+  // Adds a chunk of css to the root style sheet
+  addCSS: (css: string) =&gt; {remove: () =&gt; void},
+
+  // Helper function when adding CSS
+  appendImportantToEachValue: (style: Object) =&gt; Object;
+
+  // May not be readable if code has been minified
+  componentName: string,
+
+  // The Radium configuration
+  config: Config,
+
+  // Converts an object of CSS rules to a string, for use with addCSS
+  cssRuleSetToString: (
+    selector: string,
+    rules: Object,
+    userAgent: ?string,
+  ) =&gt; string,
+
+  // Retrieve the value of a field on the component
+  getComponentField: (key: string) =&gt; any,
+
+  // Retrieve the value of a field global to the Radium module
+  // Used so that tests can easily clear global state.
+  getGlobalState: (key: string) =&gt; any,
+
+  // Retrieve the value of some state specific to the rendered element.
+  // Requires the element to have a unique key or ref or for an element key
+  // to be passed in.
+  getState: (stateKey: string, elementKey?: string) =&gt; any,
+
+  // Helper function when adding CSS
+  hash: (data: string) =&gt; string,
+
+  // Returns true if the value is a nested style object
+  isNestedStyle: (value: any) =&gt; bool,
+
+  // Access to the mergeStyles utility
+  mergeStyles: (styles: Array&lt;Object&gt;) =&gt; Object,
+
+  // The props of the rendered element. This can be changed by each plugin,
+  // and successive plugins will see the result of previous plugins.
+  props: Object,
+
+  // Calls setState on the component with the given key and value.
+  // By default this is specific to the rendered element, but you can override
+  // by passing in the `elementKey` parameter.
+  setState: (stateKey: string, value: any, elementKey?: string) =&gt; void,
+
+  // The style prop of the rendered element. This can be changed by each plugin,
+  // and successive plugins will see the result of previous plugins. Kept
+  // separate from `props` for ease of use.
+  style: Object,
+
+  // uses the exenv npm module
+  ExecutionEnvironment: {
+    canUseEventListeners: bool,
+    canUseDOM: bool,
+  }
+};
+</code></pre>
+<p><strong>PluginResult</strong></p>
+<pre><code class="language-jsx">type PluginResult = ?{
+  // Merged into the component directly. Useful for storing things for which you
+  // don't need to re-render, event subscriptions, for instance.
+  componentFields?: Object,
+
+  // Merged into a Radium controlled global state object. Use this instead of
+  // module level state for ease of clearing state between tests.
+  globalState?: Object,
+
+  // Merged into the rendered element's props.
+  props?: Object,
+
+  // Replaces (not merged into) the rendered element's style property.
+  style?: Object,
+};
+</code></pre>
+<p>If your plugin consumes custom style blocks, it should merge any applicable style blocks and strip any others out of the style object before returning to avoid errors farther down. For example, a hypothetical <code>enumPropResolver</code> might know how to resolve keys of the form <code>'propName=value'</code>, such that if <code>this.props.propName === 'value'</code>, it will merge in that style object. <code>enumPropResolver</code> should then also strip any other keys that will not be merged. Thus, if this style object is passed to <code>enumPropResolver</code>, and <code>this.props.type === 'error'</code>:</p>
+<pre><code class="language-jsx">{
+  'type=success': {color: 'blue'},
+  'type=error': {color: 'red'},
+  'type=warning': {color: 'yellow'},
+}
+</code></pre>
+<p><code>enumPropResolver</code> should then return an object with the style property equal to:</p>
+<pre><code class="language-jsx">{
+  color: 'red'
+}
+</code></pre>
+<h2 id="style-component">Style Component</h2>
+<p>The <code>&lt;Style&gt;</code> component renders an HTML <code>&lt;style&gt;</code> tag containing a set of CSS rules. Using it, you can define an optional <code>scopeSelector</code> that all selectors in the resulting <code>&lt;style&gt;</code> element will include.</p>
+<p>Without the <code>&lt;Style&gt;</code> component, it is prohibitively difficult to write a <code>&lt;style&gt;</code> element in React. To write a normal <code>&lt;style&gt;</code> element, you need to write your CSS as a multiline string inside of the element. <code>&lt;Style&gt;</code> simplifies this process, and adds prefixing and the ability to scope selectors.</p>
+<p>If you include a <code>scopeSelector</code>, you can include CSS rules that should apply to that selector as well as any nested selectors. For example, the following</p>
+<pre><code>&lt;Style
+  scopeSelector=&quot;.scoping-class&quot;
+  rules={{
+    color: 'blue',
+    span: {
+      fontFamily: 'Lucida Console, Monaco, monospace'
+    }
+  }}
+/&gt;
+</code></pre>
+<p>will return:</p>
+<pre><code>&lt;style&gt;
+.scoping-class {
+  color: 'blue';
+}
+.scoping-class span {
+  font-family: 'Lucida Console, Monaco, monospace'
+}
+&lt;/style&gt;
+</code></pre>
+<h3 id="props">Props</h3>
+<h4 id="rules">rules</h4>
+<p>An object of CSS rules to render. Each key of the rules object is a CSS selector and the value is an object of styles. If rules is empty, the component will render nothing.</p>
+<pre><code class="language-jsx">var Radium = require('radium');
+var Style = Radium.Style;
+// or
+import Radium, { Style } from 'radium';
+
+&lt;Style rules={{
+  body: {
+    margin: 0,
+    fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif'
+  },
+  html: {
+    background: '#ccc',
+    fontSize: '100%'
+  },
+  mediaQueries: {
+    '(min-width: 550px)': {
+      html:  {
+        fontSize: '120%'
+      }
+    },
+    '(min-width: 1200px)': {
+      html:  {
+        fontSize: '140%'
+      }
+    }
+  },
+  'h1, h2, h3': {
+    fontWeight: 'bold'
+  }
+}} /&gt;
+</code></pre>
+<h4 id="scopeselector">scopeSelector</h4>
+<p>A string that any included selectors in <code>rules</code> will be appended to. Use to scope styles in the component to a particular element. A good use case might be to generate a unique ID for a component to scope any styles to the particular component that owns the <code>&lt;Style&gt;</code> component instance.</p>
+<pre><code class="language-jsx">&lt;div className=&quot;TestClass&quot;&gt;
+  &lt;Style
+  scopeSelector=&quot;.TestClass&quot;
+    rules={{
+      h1: {
+        fontSize: '2em'
+      }
+    }}
+  /&gt;
+&lt;/div&gt;
+</code></pre>
+<h3 id="notes">Notes</h3>
+<p>Some style properties, like <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/content"><code>content</code></a>, allow quoted strings or keywords as values. Because all non-numerical property values are written
+as strings in Radium style objects, you must explicitly add quotes to string value for these properties: <code>content: &quot;'Hello World!'&quot;</code>.</p>
+<h2 id="styleroot-component">StyleRoot Component</h2>
+<p><em>Props: Accepts all props valid on <code>div</code> and optional <code>radiumConfig</code></em></p>
+<p>Usually wrapped around your top-level App component. StyleRoot wraps its children in a plain div followed by the root style sheet. Radium plugins, like keyframes and media queries, use this style sheet to inject CSS at runtime. Because the style sheet appears after your rendered elements, it is populated correctly during a server render.</p>
+<p>StyleRoot transfers all of its props to the rendered <code>div</code>, and is itself wrapped in Radium, so you can pass it inline styles or <code>radiumConfig</code>.</p>
+<pre><code class="language-jsx">import {StyleRoot} from 'radium';
+
+class App extends React.Component {
+  render() {
+    return (
+      &lt;StyleRoot&gt;
+        ... rest of your app ...
+      &lt;/StyleRoot&gt;
+    );
+  }
+}
+</code></pre>
+<p><strong>Note:</strong> StyleRoot passes the style-keeper (the object where styles are collected) down to other Radium components via context. Because of this, you cannot use keyframes or media queries in <em>direct children</em> of the <code>&lt;StyleRoot&gt;</code>, e.g.</p>
+<pre><code class="language-jsx">// COUNTEREXAMPLE, DOES NOT WORK
+&lt;StyleRoot&gt;
+  &lt;div style={{'@media print': {color: 'black'}}} /&gt;
+&lt;/StyleRoot&gt;
+</code></pre>
+<p>You'll have to break out that piece into a proper component:</p>
+<pre><code class="language-jsx">class BodyText extends React.Component {
+  render() {
+    return &lt;div style={{'@media print': {color: 'black'}}} /&gt;;
+  }
+}
+
+class App extends React.Component {
+  render() {
+    return (
+      &lt;StyleRoot&gt;
+        &lt;BodyText&gt;...&lt;/BodyText&gt;
+      &lt;/StyleRoot&gt;
+    );
+  }
+}
+</code></pre>
+<h2 id="testmode">TestMode</h2>
+<p>Directly off the main Radium object you can access <code>TestMode</code>, used to control internal Radium state and behavior during tests. It is only available in non-production builds.</p>
+<ul>
+<li><code>Radium.TestMode.clearState()</code> - clears the global Radium state, currently only the cache of media query listeners.</li>
+<li><code>Radium.TestMode.enable()</code> - enables &quot;test mode&quot;, which doesn’t throw or warn as much. Currently it just doesn’t throw when using addCSS without StyleRoot.</li>
+<li><code>Radium.TestMode.disable()</code> - disables &quot;test mode&quot;</li>
+</ul>
+</div><footer class="formidableFooter isLight" data-reactid="68"><div class="formidableFooter-container" data-reactid="69"><div class="default" data-radium="true" data-reactid="70"><a href="https://formidable.com/contact/" data-reactid="71">Contact</a><a href="https://formidable.com/careers/" data-reactid="72">Careers</a><a href="https://twitter.com/FormidableLabs" data-reactid="73"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 25" style="width:100%;max-width:20px;height:auto;vertical-align:middle"><title>Twitter</title><path d="M30 3.185a12.05 12.05 0 0 1-3.535.966 6.155 6.155 0 0 0 2.711-3.4 12.285 12.285 0 0 1-3.908 1.493 6.158 6.158 0 0 0-10.647 4.212 5.932 5.932 0 0 0 .165 1.405A17.485 17.485 0 0 1 2.1 1.429a6.16 6.16 0 0 0 1.91 8.222 6.154 6.154 0 0 1-2.788-.768v.077A6.159 6.159 0 0 0 6.158 15a6.109 6.109 0 0 1-1.625.22 6.848 6.848 0 0 1-1.164-.11 6.174 6.174 0 0 0 5.752 4.281 12.39 12.39 0 0 1-7.651 2.634A13.065 13.065 0 0 1 0 21.934 17.434 17.434 0 0 0 9.44 24.7c11.328 0 17.519-9.385 17.519-17.519 0-.263-.011-.538-.022-.8A12.469 12.469 0 0 0 30 3.185z"/></svg></a><a href="https://github.com/FormidableLabs/" data-reactid="74"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" style="width:100%;max-width:20px;height:auto;vertical-align:middle"><title>GitHub</title><path d="M17 1.113a16.29 16.29 0 0 0-5.148 31.747.82.82 0 0 0 1.112-.785c0-.387-.014-1.41-.022-2.77-4.53.984-5.487-2.184-5.487-2.184a4.314 4.314 0 0 0-1.81-2.382c-1.478-1.01.113-.99.113-.99a3.422 3.422 0 0 1 2.5 1.68 3.468 3.468 0 0 0 4.74 1.353 3.48 3.48 0 0 1 1.03-2.18c-3.618-.41-7.42-1.81-7.42-8.05a6.3 6.3 0 0 1 1.676-4.37 5.86 5.86 0 0 1 .16-4.31s1.368-.44 4.48 1.67a15.44 15.44 0 0 1 8.155 0c3.11-2.11 4.474-1.67 4.474-1.67a5.85 5.85 0 0 1 .162 4.31 6.286 6.286 0 0 1 1.674 4.37c0 6.26-3.81 7.636-7.437 8.04a3.888 3.888 0 0 1 1.106 3.016c0 2.178-.02 3.935-.02 4.47a.816.816 0 0 0 1.12.782A16.292 16.292 0 0 0 17 1.113z" fill-rule="evenodd"/></svg></a></div><div class="formidableFooter-logo" data-reactid="75"><a class="formidableFooter-logo-link" href="https://formidable.com/" target="_blank" data-reactid="76"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 30" style="width:auto;height:100%"><title>Formidable</title><path d="M33.2 11.1h5.9v-3H30v14.1h3.2v-5.3h5.2v-2.8h-5.2v-3zM44.1 12a5.3 5.3 0 1 0 5.3 5.3 5.209 5.209 0 0 0-5-5.3h-.3zm0 7.7a2.308 2.308 0 0 1-2.3-2.2v-.2a2.391 2.391 0 0 1 2-2.5 2.31 2.31 0 0 1 2.5 2v.4a2.31 2.31 0 0 1-2 2.5zM53.3 13.6v-1.3h-2.9v9.9h3v-4.4c0-2 1.1-2.7 2.3-2.7a3.4 3.4 0 0 1 1 .1v-2.9a2.2 2.2 0 0 0-.8-.1 2.9 2.9 0 0 0-2.6 1.4zM69.3 12a3.372 3.372 0 0 0-3.1 1.6 2.979 2.979 0 0 0-2.9-1.6 3.7 3.7 0 0 0-2.9 1.4v-1.1h-2.9v9.9h3v-5.8a1.526 1.526 0 0 1 1.5-1.7h.1a1.477 1.477 0 0 1 1.6 1.4v6.1h3v-5.7a1.579 1.579 0 0 1 1.5-1.7h.1a1.617 1.617 0 0 1 1.6 1.4v6.1h3v-6.4a3.474 3.474 0 0 0-3.1-3.8.749.749 0 0 0-.5-.1zM74.5 12.3h3v9.9h-3zM76 7.5a1.8 1.8 0 1 0 1.8 1.8A1.793 1.793 0 0 0 76 7.5zM89 7.8h-3v5.3c-.2-.4-1-1-2.7-1a4.823 4.823 0 0 0-4.8 4.9v.3a4.914 4.914 0 0 0 4.6 5.2h.3a3.257 3.257 0 0 0 2.7-1.2 3.4 3.4 0 0 0 .1 1h2.9c0-.2-.1-.9-.1-1.8zm-5.2 12a2.38 2.38 0 0 1-2.3-2.2v-.3a2.264 2.264 0 1 1 4.5-.5v.4a2.391 2.391 0 0 1-2 2.5.31.31 0 0 0-.2.1zM99 15.8c0-2-1.2-3.8-4.4-3.8-2.9 0-4.2 1.9-4.4 3.3l2.6.5a1.649 1.649 0 0 1 1.7-1.5 1.174 1.174 0 0 1 1.4 1v.1a.684.684 0 0 1-.7.7l-2.2.4a3.058 3.058 0 0 0-2.9 3 3.552 3.552 0 0 0 3.9 3 3.15 3.15 0 0 0 2.3-1.4 3.75 3.75 0 0 0 .1 1.1h2.7a7.569 7.569 0 0 1-.1-1.5v-4.9zm-3 2.5a1.769 1.769 0 0 1-1.4 2h-.4a1.1 1.1 0 0 1-1.2-.8v-.2a1.11 1.11 0 0 1 1.1-1.1l1.9-.3zM106.4 12.1a3.646 3.646 0 0 0-2.9 1.2V7.8h-3v14.5h2.9v-1.1a3.052 3.052 0 0 0 2.8 1.3c2.8 0 4.7-2.2 4.7-5.2s-1.6-5.2-4.5-5.2zm-.6 7.6a2.308 2.308 0 0 1-2.3-2.2v-.2a2.264 2.264 0 1 1 4.5-.5v.4a2.31 2.31 0 0 1-2 2.5zM112 7.8h3v14.5h-3zM125.9 17.1c0-3.2-1.9-5.1-5-5.1a4.951 4.951 0 0 0-5 5v.2a5.045 5.045 0 0 0 4.8 5.3h.4a4.43 4.43 0 0 0 4.6-3.2l-2.5-.7a1.956 1.956 0 0 1-2 1.3 2.26 2.26 0 0 1-2.3-1.9h6.9a1.412 1.412 0 0 0 .1-.9zm-6.9-1a1.96 1.96 0 0 1 2-1.7 1.8 1.8 0 0 1 2 1.5v.1h-4zM12.9 2.4L.8 27.6l12.1-9.9V2.4z"/><path style="isolation:isolate" opacity=".75" d="M12.9 2.4l9.4 18.4-9.4-3.1V2.4z"/><path style="isolation:isolate" opacity=".5" d="M12.9 26.4l9.4-5.6-9.4-3.1v8.7z"/><path style="isolation:isolate" opacity=".25" d="M.8 27.6l12.1-9.9v8.7L.8 27.6z"/></svg></a></div><div class="default" data-reactid="77">Radium® is a trademark of Formidable Labs, Inc.</div></div></footer></section></section></main></div><style data-reactid="78"></style></div></div>
+  <script async defer type="text/javascript" src="main.e6831b0c2303b2542b5e.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+  <head>
+      <base href="/open-source/playbook/" />
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Formidable Playbook</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="./static/favicon.ico" type="image/x-icon">
+      <link href="//formidable.com/open-source/fonts.css" rel="stylesheet" type="text/css">
+      <link href="./static/prism.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="content" style="height:100%"><div style="display:flex;flex-direction:column;min-height:100vh;" data-radium="true" data-reactroot="" data-reactid="1" data-react-checksum="-541800137"><style data-reactid="2">*, *:before, *:after{box-sizing: inherit;}html{-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+background-color: #4A4A4A;}body{background-color: #FFFFFF;
+box-sizing: border-box;
+color: #242121;
+font-family: 'tiempos', 'Source Serif Pro', Georgia, serif;
+font-size: 16px;
+line-height: 1.4;
+margin: 0;}html, body{overflow-x: hidden;
+min-height: 100vh;}article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{display: block;}h1, h2, h3, h4, h5, h6, ul, ol, dd, p, figure, table, fieldset, hr, .highlight{margin-top: 1.25rem;
+margin-bottom: 0;}ul ul{margin-top: 0;}h1, h2, h3, h4, h5, h6, hgroup{font-family: 'sharp', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: normal;
+letter-spacing: .02em;
+line-height: 1.2;}a{color: #C43A31;
+text-decoration: none;
+transition: color 150ms ease-in;}a:hover{color: #D45C54;
+transition: color 150ms ease-out;}pre{background-color: #f5f2f0;
+margin-top: 1.25rem;
+margin-left: -10%;
+margin-right: -10%;
+padding-top: 2em;
+padding-right: 10%;
+padding-bottom: 2em;
+padding-left: 10%;
+overflow: auto;}pre > code{display: block;
+border: none;
+padding: 0;}code{font-size: 82%;
+padding: 0.33em 0.333em 0.28em;
+border: 1px solid rgba(0,0,0,0.1);
+border-radius: 1px;
+font-family: 'akkurat', Consolas, 'Inconsolata', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Courier New', 'Courier', monospace;
+word-wrap: break-word;
+max-width: 100%;
+overflow-x: auto;}p{font-size: 95%;
+line-height: 1.8;
+color: #242121;}ol{margin-left: 1.25em;
+counter-reset: li;}ol > li{position: relative;
+list-style: none;
+margin: 0.5em 0;
+font-size: 0.95em;}ol > li:before{content: counter(li) ".";
+counter-increment: li;
+position: absolute;
+left: -1.2em;
+width: 1em;
+font-family: 'sharp', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: 600;
+color: #a7a6a6;}ul{margin-left: 0.8em;
+padding: 0;}ul > li{margin: 0.5em 0;
+padding: 0;
+font-size: 95%;
+line-height: 1.8;}img{max-width: 100%;}h1{font-size: 3.25rem;}h2{font-size: 2.75rem;}h3{font-size: 2.5rem;}h4{font-size: 2.25rem;}h5{font-size: 2rem;}h6{font-size: 2rem;}svg{fill: currentColor;}table{padding: 0px;}table tr{border-top: 1px solid #f5f2f0;
+background-color: white;
+margin: 0px;
+padding: 0px;}table tr:nth-child(2n){background-color: #f8f8f8;}table tr th{font-weight: bold;
+border: 1px solid #f5f2f0;
+text-align: left;
+margin: 0px;
+padding: 6px 13px;}table tr td{border: 1px solid #f5f2f0;
+text-align: left;
+margin: 0px;
+padding: 6px 13px;}table tr th:first-child, table tr td:first-child{margin-top: 0px;}table tr th:last-child, table tr td:last-child{margin-bottom: 0px;}.page-home .md p:first-child{font-size: inherit;}.page-home .md ul{margin: 1.25rem 0px;}.page-home .md ul ul{margin: 0 0 0 1.25em;}.page-home .md ul li{position: relative;
+list-style: none;}.page-home .md ul li a{position: relative;
+font-size: 1rem;}.page-home .md ul li a:before{content: '';
+display: block;
+position: absolute;
+left: -15px;
+top: 50%;
+width: 5px;
+height: 5px;
+border-radius: 25px;
+background-color: #C43A31;
+transform: translateY(-50%);}.page-home .md h2{margin-top: 1.5em;}.page-home .md h4 ~ p{margin-top: .5em;}.page{flex: 1 1 auto;}@media only screen and (min-width: 44.063em){p{font-size: 1.1rem;}li{font-size: 1.1rem;}h1{font-size: 4rem;}h2{font-size: 3rem;}h3{font-size: 2.75rem;}h4, h5, h6{font-size: 2.5rem;}.page-home .md p:first-child{font-size: 1.3rem;}.page-home .md ul li a{position: relative;
+font-size: 1.2rem;}}</style><header class="formidableHeader" style="margin:0;background:#242121 url(aea9940cdac49890b4b4ad8112b035b0.jpg) bottom right;color:#898685;padding:60px 0;" data-reactid="3"><style data-reactid="4">.formidableHeader svg{fill: currentColor;}.formidableHeader a:link{text-decoration: none;
+transition: color 250ms ease-in, fill 300ms ease-in;
+color: #fff;}.formidableHeader a:visited{color: #e7e5e3;}.formidableHeader a:hover,.formidableHeader a:focus{transition: color 400ms ease-out, fill 500ms ease-out;
+color: #dc7a6b;}.formidableHeader .default{margin-bottom: 20px;
+font-family: "akkurat", "Inconsolata", monospace;
+font-size: 13px;
+letter-spacing: 0.15em;
+line-height: 2;
+text-transform: uppercase;}.formidableHeader .default *{display: inline-block;
+margin-left: 2em;}.formidableHeader .formidableHeader-logos{margin: 0 auto 0 0;}.formidableHeader .formidableHeader-logos-oss{align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+height: 30px;
+overflow: hidden;}.formidableHeader .formidableHeader-logos-oss-by{margin-top: 3px;
+margin-right: 0.5em;
+font-family: "akkurat", "Inconsolata", monospace;
+font-size: 14px;
+font-weight: normal;
+line-height: 1;}</style><div class="formidableHeader-container" style="font-family:inherit;font-size:inherit;align-items:center;display:flex;flex:none;flex-direction:row;flex-wrap:wrap;justify-content:center;padding:0 1.2em;margin:0 auto;max-width:43.13em;" data-reactid="5"><div class="rmq-408f821a formidableHeader-logos" style="margin:0 auto 50px;" data-reactid="6"><a style="font-family:sharp, &#x27;Helvetica Neue&#x27;, Helvetica, sans-serif;font-size:3rem;font-weight:normal;line-height:1.2;margin:0px;" href="/" class="rmq-58d71aa0" data-radium="true" data-reactid="7">Formidable Playbook</a><div class="formidableHeader-logos-oss" data-reactid="8"><span class="formidableHeader-logos-oss-by" style="text-indent:2px;" data-reactid="9">by</span><a href="https://formidable.com/open-source/" target="_blank" style="display:flex;height:inherit;" data-reactid="10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 30" style="width:auto;height:100%"><title>Formidable Open Source</title><path fill="inherit" d="M33.2 11.053h5.98v-2.99h-9.13v14.17h3.18v-5.3h5.23v-2.88H33.2v-3zM44.14 11.993a5.27 5.27 0 1 0 5.28 5.26 5.13 5.13 0 0 0-5-5.261q-.138-.003-.28.001zm0 7.74a2.25 2.25 0 0 1-2.24-2.48 2.25 2.25 0 1 1 4.48 0 2.23 2.23 0 0 1-2.24 2.48zM53.33 13.633v-1.29h-2.94v9.93h3v-4.38c0-2 1.1-2.7 2.32-2.7a4.12 4.12 0 0 1 1 .1v-2.95a3 3 0 0 0-.8-.1 2.81 2.81 0 0 0-2.58 1.39zM69.32 11.993a3.41 3.41 0 0 0-3.08 1.56 3.07 3.07 0 0 0-2.94-1.56 3.46 3.46 0 0 0-2.86 1.44v-1.09h-2.9v9.93h3v-5.76a1.61 1.61 0 0 1 1.5-1.717h.144a1.51 1.51 0 0 1 1.6 1.68v5.76h3v-5.74A1.61 1.61 0 0 1 68.3 14.8h.143a1.51 1.51 0 0 1 1.58 1.68v5.76H73V15.8a3.48 3.48 0 0 0-3.68-3.8zM74.57 12.293h3.04v9.93h-3.04zM76.07 7.483a1.78 1.78 0 1 0 .02 0zM89.04 7.763h-3v5.32c-.24-.38-1-1-2.68-1a4.85 4.85 0 0 0-4.831 4.869q0 .156.011.311a4.92 4.92 0 0 0 4.611 5.211q.154.009.309.009a3.21 3.21 0 0 0 2.66-1.18 6.9 6.9 0 0 0 .08 1h2.92c0-.22-.08-.88-.08-1.78zm-5.2 12a2.24 2.24 0 0 1-2.24-2.51 2.25 2.25 0 1 1 4.48 0 2.24 2.24 0 0 1-2.24 2.48zM99.04 15.833c0-2-1.18-3.84-4.4-3.84-2.92 0-4.24 1.88-4.36 3.3l2.64.54a1.6 1.6 0 0 1 1.68-1.49 1.23 1.23 0 0 1 1.444.97q.011.054.016.11a.68.68 0 0 1-.679.681h-.041l-2.34.36a3.05 3.05 0 0 0-2.94 3 3.48 3.48 0 0 0 6.24 1.62 4.77 4.77 0 0 0 .1 1.12h2.74a9.75 9.75 0 0 1-.12-1.54v-4.83zm-3 2.5a1.71 1.71 0 0 1-1.82 2 1 1 0 0 1-1.18-1 1.1 1.1 0 0 1 1.1-1.1h.02l1.88-.3v.4zM106.46 12.053a3.57 3.57 0 0 0-2.86 1.18v-5.47h-3v14.47h2.94v-1.12a3.2 3.2 0 0 0 2.8 1.34c2.78 0 4.74-2.18 4.74-5.22s-1.74-5.18-4.62-5.18zm-.66 7.68a2.26 2.26 0 0 1-2.26-2.48 2.26 2.26 0 1 1 4.5 0 2.23 2.23 0 0 1-2.24 2.48zM112.05 7.763h3.04v14.47h-3.04zM125.98 17.093c0-3.2-1.9-5.1-5-5.1a5 5 0 0 0-5.006 4.994q0 .123.006.246a5.06 5.06 0 0 0 4.813 5.3q.184.009.367 0a4.46 4.46 0 0 0 4.64-3.19l-2.54-.72a1.92 1.92 0 0 1-2 1.3A2.15 2.15 0 0 1 119 18h6.92a6.111 6.111 0 0 0 .06-.907zm-6.92-1a1.89 1.89 0 0 1 2-1.68 1.78 1.78 0 0 1 1.988 1.544q.009.068.012.136zM7.697 6.274L1.292 24.079l6.405-7.769V6.274z"/><path style="isolation:isolate" fill="inherit" opacity=".75" d="M7.697 6.274l14.733 5.231L7.697 16.31V6.274z"/><path style="isolation:isolate" fill="inherit" opacity=".5" d="M17.246 18.257l5.141-6.752L7.654 16.31l9.592 1.947z"/><path style="isolation:isolate" fill="inherit" opacity=".25" d="M1.249 24.079l6.405-7.769 9.592 1.947-15.997 5.822z"/><path d="M133.271 16.412a5.948 5.948 0 1 1 5.929 5.968 5.922 5.922 0 0 1-5.929-5.968zm9.205 0a3.258 3.258 0 1 0-3.276 3.335 3.272 3.272 0 0 0 3.276-3.335zM147.7 10.6h3.959a4.188 4.188 0 0 1 4.407 4.232 4.24 4.24 0 0 1-4.427 4.291h-1.268v3.1H147.7zm2.672 2.457v3.589h1.189a1.795 1.795 0 1 0 0-3.589zM158.6 10.6h6.884v2.5h-4.231v2.048h4.231v2.5h-4.231v2.087h4.231v2.5H158.6zM168.253 10.6h2.886l4.329 6.864V10.6h2.652v11.624h-2.672l-4.543-7.177v7.177h-2.652zM186.816 18.479l2.75.02v.059a1.288 1.288 0 0 0 1.4 1.364c.78 0 1.326-.37 1.326-1.072 0-.955-1.054-1.131-2.224-1.521-1.892-.624-3.081-1.287-3.081-3.55 0-1.95 1.7-3.354 3.959-3.354a3.509 3.509 0 0 1 3.842 3.627h-2.535v-.039a1.254 1.254 0 0 0-1.326-1.345c-.937 0-1.346.429-1.346 1.033 0 .917 1.072 1.053 2.262 1.541 1.443.585 3.14 1.189 3.14 3.588 0 1.911-1.4 3.568-4.173 3.568-2.589.002-3.994-1.383-3.994-3.919zM197.034 16.412a5.948 5.948 0 1 1 5.929 5.968 5.922 5.922 0 0 1-5.929-5.968zm9.205 0a3.258 3.258 0 1 0-3.276 3.335 3.272 3.272 0 0 0 3.276-3.335zM211.562 18.206V10.6h2.672v7.7a1.489 1.489 0 0 0 1.481 1.638 1.508 1.508 0 0 0 1.521-1.638v-7.7h2.672v7.605a4.173 4.173 0 1 1-8.347 0zM222.735 10.6h4.056c2.789 0 4.388 1.794 4.388 3.978A3.612 3.612 0 0 1 229 17.992l2.516 4.231h-3.022l-3.1-5.538v5.538h-2.652zm2.652 2.457v3.2h1.213a1.653 1.653 0 0 0 1.833-1.638c0-1.014-.585-1.56-1.833-1.56zM233.654 16.412a5.994 5.994 0 0 1 11.759-1.619h-2.886a3.047 3.047 0 0 0-2.866-1.736 3.223 3.223 0 0 0-3.3 3.354 3.174 3.174 0 0 0 3.3 3.335 2.91 2.91 0 0 0 2.69-1.619h2.983a5.966 5.966 0 0 1-11.681-1.716zM247.87 10.6h6.884v2.5h-4.231v2.048h4.231v2.5h-4.231v2.087h4.231v2.5h-6.884z" fill="inherit"/></svg></a></div></div><div class="default" data-reactid="11"><a href="https://github.com/FormidableLabs/formidable-playbook" data-reactid="12">GitHub</a></div></div></header><div class="page page-docs" data-reactid="13"><main style="width:100%;max-width:calc(43.13em + 1.2em);margin:1.2em auto;padding:1.2em;" data-radium="true" data-reactid="14"><a style="font-size:1rem;text-decoration:none;" href="/" data-reactid="15">← Return Home</a><div class="md" data-reactid="16"><h3 id="start-with-good-base-plugins">Start with good base plugins</h3>
+<p>Webpack has a rich plugin ecosystem, including both
+<a href="https://webpack.github.io/docs/list-of-plugins.html">core</a> and
+[open source](<a href="http://nipstr.com/#webpack">http://nipstr.com/#webpack</a> plugin)
+<a href="https://www.npmjs.com/browse/keyword/webpack-plugin">modules</a> modules.
+Webpack also has a straight forward interface to
+<a href="https://webpack.github.io/docs/plugins.html">write your own plugins</a>.</p>
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<ul>
+<li><a href="/open-source/playbook/docs/frontend/webpack-plugins#uglifyjsplugin"><code>UglifyJsPlugin</code></a></li>
+<li><a href="/open-source/playbook/docs/frontend/webpack-plugins#dedupeplugin"><code>DedupePlugin</code></a></li>
+<li><a href="/open-source/playbook/docs/frontend/webpack-plugins#occurrenceorderplugin"><code>OccurrenceOrderPlugin</code></a></li>
+<li><a href="/open-source/playbook/docs/frontend/webpack-plugins#defineplugin"><code>DefinePlugin</code></a></li>
+<li><a href="/open-source/playbook/docs/frontend/webpack-plugins#lodash-webpack-plugin"><code>lodash-webpack-plugin</code></a></li>
+</ul>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<h5 id="uglifyjsplugin"><a href="https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin"><code>UglifyJsPlugin</code></a></h5>
+<ul>
+<li>Recommended?: <strong>Yes</strong></li>
+</ul>
+<p>The <code>UglifyJsPlugin</code> minimizes code using
+<a href="https://github.com/mishoo/UglifyJS2">Uglifyjs</a> and with most options proxied
+through to the plugin.</p>
+<p>Typical configuration:</p>
+<pre><code class="language-js">new webpack.optimize.UglifyJsPlugin()
+</code></pre>
+<h5 id="dedupeplugin"><a href="https://webpack.github.io/docs/list-of-plugins.html#dedupeplugin"><code>DedupePlugin</code></a></h5>
+<ul>
+<li>Recommended?: <strong>Yes for <code>webpack@1</code></strong></li>
+</ul>
+<p>Collapse identical code chunks to a single reference. The plugin looks for
+identical occurrences of the same code and replaces real code chunks in the
+bundle with integer references (think pointers in C/C++) to find an earlier
+instance of the same code.</p>
+<p>Typical configuration:</p>
+<pre><code class="language-js">new webpack.optimize.DedupePlugin()
+</code></pre>
+<p><strong>Note - npm Deduplication</strong>: This “deduplication” is separate from the
+deduplication that <code>npm</code> performs while flattening the dependency tree in
+<code>node_modules</code>. It is just a scan by webpack to coalesce identical code chunks
+to a single reference.</p>
+<!-- **TODO: inspectpack duplicates reference + note - https://github.com/FormidableLabs/formidable-playbook/issues/2* -->
+<p><strong>Webpack 2+ Note</strong>: This plugin has been removed as of <code>webpack@2</code> with a note
+that it “isn’t needed anymore” because of npm deduplication. Unfortunately, npm
+deduplication can often fail where the plugin would yield a smaller bundle.
+Hopefully, this plugin will be resurrected by core or the community as a new OSS
+project.</p>
+<h5 id="occurrenceorderplugin"><a href="https://webpack.github.io/docs/list-of-plugins.html#occurrenceorderplugin"><code>OccurrenceOrderPlugin</code></a></h5>
+<ul>
+<li>Recommended?: <strong>Maybe for <code>webpack@1</code></strong></li>
+</ul>
+<p>Reorder module / chunk ids by order of most-to-least occurring. This reduces
+raw code size since smaller integer indexes are <code>require</code>-ed more. Also makes
+the order of modules deterministic.</p>
+<p>Typical configuration:</p>
+<pre><code class="language-js">new webpack.optimize.OccurrenceOrderPlugin()
+</code></pre>
+<p><strong>Assessment</strong>: The size gains are often not significant, and can make the
+ultimate minified + gzipped bundle size actually <em>larger</em>. And this calculus
+can change over time, so generally speaking size should not be a motivating
+factor for enabling this plugin. However, if you need a deterministic ordering
+of chunks and modules, this plugin is appropriate.</p>
+<p><strong>Webpack 2+ Note</strong>: Enabled by default now.</p>
+<h5 id="defineplugin"><a href="https://webpack.github.io/docs/list-of-plugins.html#defineplugin"><code>DefinePlugin</code></a></h5>
+<ul>
+<li>Recommended?: <strong>Maybe</strong></li>
+</ul>
+<p>Add raw replacement strings for free variables in code. This literally rewrites
+your source code with replacements. With a bit of strategy and a project
+convention you can opportunistically have code paths removed / variables
+replaced for a bespoke optimized production build.</p>
+<p>Additionally, many frameworks / tools such as React, expect a definition of
+<code>&quot;process.env.NODE_ENV&quot;: JSON.stringify(&quot;production&quot;)</code> for the most optimized
+build of included code.</p>
+<p>Example configuration:</p>
+<pre><code class="language-js">new webpack.optimize.DefinePlugin({
+  &quot;process.env.NODE_ENV&quot;: JSON.stringify(&quot;production&quot;), // or &quot;\&quot;production\&quot;&quot;
+  &quot;DEBUG&quot;: false // or &quot;false&quot;
+})
+</code></pre>
+<p><strong>Note</strong>: to expand a variable to a quoted string, you must use
+<code>JSON.stringify</code>.</p>
+<p>If we had this source:</p>
+<pre><code class="language-js">if (process.env.NODE_ENV === &quot;production&quot;) {
+  console.log(&quot;I'm in prod!&quot;);
+}
+
+if (DEBUG) {
+  console.log(&quot;Explicit debug switch&quot;);
+}
+</code></pre>
+<p>with the above configuration, the output would be:</p>
+<pre><code class="language-js">if (&quot;production&quot; === &quot;production&quot;) {
+  console.log(&quot;I'm in prod!&quot;);
+}
+
+if (false) {
+  console.log(&quot;Explicit debug switch&quot;);
+}
+</code></pre>
+<p>which with minification would become:</p>
+<pre><code class="language-js">console.log(&quot;I'm in prod!&quot;);
+</code></pre>
+<h5 id="lodash-webpack-plugin"><a href="https://github.com/lodash/lodash-webpack-plugin"><code>lodash-webpack-plugin</code></a></h5>
+<ul>
+<li>Recommended?: <strong>Maybe</strong></li>
+</ul>
+<p>If your project uses <a href="https://lodash.com/">lodash</a> and can handle some limiting
+constraints and complexities, this plugin provides some useful optimizations for
+reducing code size.</p>
+<p>Typically you’ll want to already use the
+<a href="https://github.com/lodash/babel-plugin-lodash"><code>babel-plugin-lodash</code></a> which
+optimizes some things in a webpack / babel build. This plugin then goes further
+by removing lots of internal code, grouped in logical
+<a href="https://github.com/lodash/lodash-webpack-plugin#feature-sets">&quot;feature sets&quot;</a></p>
+<p><strong>Big Warning</strong>: The plugin’s only real value is removing internal stuff that
+your code <strong>may still depend on</strong>. And it’s not always obvious what is getting
+removed.</p>
+<p>For example, looking to a simple example provided at:
+<a href="https://github.com/exogen/test-lodash-webpack-plugin">https://github.com/exogen/test-lodash-webpack-plugin</a> we have this starting code:</p>
+<pre><code class="language-js">import get from &quot;lodash/get&quot;;
+import assert from &quot;assert&quot;;
+
+const x = { a: { b: { c: 1 } } };
+
+assert.strictEqual(get(x, &quot;a.b.c&quot;), 1);
+</code></pre>
+<p>Using the plugin with no configuration:</p>
+<pre><code class="language-js">new LodashModuleReplacementPlugin()
+</code></pre>
+<p>will fail the assertion because the result of <code>get(x, &quot;a.b.c&quot;)</code> is <code>undefined</code>.
+The reason is that all deep path traversal code is removed under the hood by
+default. Thus to support deep path traversal for the <code>get()</code> call, we would
+need to configure the plugin like:</p>
+<pre><code class="language-js">new LodashModuleReplacementPlugin({
+  paths: true
+})
+</code></pre>
+<p>Thus, this plugin is not really a “fire and forget” thing, but rather a power
+tool with very few safeties. You must be familiar with all the of the feature
+sets removed, probably need to coordinate re-enabling key ones for your specific
+project, and ensure that all lodash usage is tested / complies with the internal
+rewriting of the plugin.</p>
+<p>For example, after enabling it without configuration in the Victory project,
+we later found that we needed several configurations enabled. See:
+<a href="https://github.com/FormidableLabs/builder-victory-component/pull/64">https://github.com/FormidableLabs/builder-victory-component/pull/64</a></p>
+<p>In short, it’s easier to just not add the plugin. But if you need that extra
+bit of super-optimized lodash tuning, you can enable the plugin and accept the
+complexity cost of it.</p>
+</div><div style="display:flex;flex-direction:column;justify-content:space-between;margin:3rem 0rem 0rem;padding-top:0px;border-top:1px solid #f5f2f0;" class="rmq-320851e" data-radium="true" data-reactid="17"><div data-radium="true" data-reactid="18"><div style="display:flex;flex-direction:column;padding:1rem;border-bottom:1px solid #f5f2f0;text-align:center;" class="rmq-2c70f735" data-radium="true" data-reactid="19"><span data-reactid="20">Previous Guide</span><a style="font-size:1.2rem;" href="/docs/infrastructure/single" data-reactid="21">Have a single infrastructure</a></div></div><div data-radium="true" data-reactid="22"><div style="display:flex;flex-direction:column;padding:1rem;border-bottom:1px solid #f5f2f0;text-align:center;" class="rmq-2c70f735" data-radium="true" data-reactid="23"><span data-reactid="24">Next Guide</span><a style="font-size:1.2rem;" href="/docs/frontend/webpack-code-splitting" data-reactid="25">Code splitting</a></div></div></div></main></div><footer class="formidableFooter" style="margin:2rem 0 0 0;background:#242121 linear-gradient(to top, rgba(10,9,9,0) 85%, rgba(10,9,9,0.75) 100%);color:#d1cecd;" data-reactid="26"><style data-reactid="27">.formidableFooter svg{fill: currentColor;}.formidableFooter a:link{text-decoration: none;
+transition: color 250ms ease-in, fill 300ms ease-in;
+color: #fff;}.formidableFooter a:visited{color: #e7e5e3;}.formidableFooter a:hover,.formidableFooter a:focus{transition: color 400ms ease-out, fill 500ms ease-out;
+color: #dc7a6b;}.formidableFooter .default{margin-top: 16px;
+font-family: "akkurat", "Inconsolata", monospace;
+font-size: 13px;}.formidableFooter .default a{display: inline-block;
+letter-spacing: 0.15em;
+line-height: 2;
+margin-right: 2em;
+text-transform: uppercase;}.formidableFooter .default a:last-child{margin-right: 0;}.formidableFooter .default:last-child{flex: 0 0 100%;
+margin-top: 8px;
+text-align: right;}</style><div class="formidableFooter-container" style="font-family:inherit;font-size:inherit;align-items:center;display:flex;flex:none;flex-direction:row;flex-wrap:wrap;justify-content:flex-end;padding:5rem 0 6rem;margin:0 auto;max-width:43.13em;" data-reactid="28"><div class="default" data-reactid="29"><a href="https://formidable.com/contact/" data-reactid="30">Contact</a><a href="https://formidable.com/careers/" data-reactid="31">Careers</a><a href="https://twitter.com/FormidableLabs" data-reactid="32"><svg xmlns="http://www.w3.org/2000/svg" width="273.3" height="222.3" viewBox="0 0 273.3 222.3" style="width:100%;max-width:20px;height:auto;vertical-align:middle"><title>Twitter</title><path d="M273.3 26.3a109.775 109.775 0 0 1-32.2 8.8 56.072 56.072 0 0 0 24.7-31 111.919 111.919 0 0 1-35.6 13.6 56.1 56.1 0 0 0-97 38.4 54.036 54.036 0 0 0 1.5 12.8A159.292 159.292 0 0 1 19.1 10.3a56.118 56.118 0 0 0 17.4 74.9 56.064 56.064 0 0 1-25.4-7v.7a56.11 56.11 0 0 0 45 55 55.65 55.65 0 0 1-14.8 2 62.391 62.391 0 0 1-10.6-1 56.241 56.241 0 0 0 52.4 39 112.874 112.874 0 0 1-69.7 24 119.02 119.02 0 0 1-13.4-.8 158.828 158.828 0 0 0 86 25.2c103.2 0 159.6-85.5 159.6-159.6 0-2.4-.1-4.9-.2-7.3a113.593 113.593 0 0 0 27.9-29.1z"/></svg></a><a href="https://github.com/FormidableLabs/" data-reactid="33"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" style="width:100%;max-width:20px;height:auto;vertical-align:middle"><title>Git Hub</title><path d="M17 1.113a16.29 16.29 0 0 0-5.148 31.747.82.82 0 0 0 1.112-.785c0-.387-.014-1.41-.022-2.77-4.53.984-5.487-2.184-5.487-2.184a4.314 4.314 0 0 0-1.81-2.382c-1.478-1.01.113-.99.113-.99a3.422 3.422 0 0 1 2.5 1.68 3.468 3.468 0 0 0 4.74 1.353 3.48 3.48 0 0 1 1.03-2.18c-3.618-.41-7.42-1.81-7.42-8.05a6.3 6.3 0 0 1 1.676-4.37 5.86 5.86 0 0 1 .16-4.31s1.368-.44 4.48 1.67a15.44 15.44 0 0 1 8.155 0c3.11-2.11 4.474-1.67 4.474-1.67a5.85 5.85 0 0 1 .162 4.31 6.286 6.286 0 0 1 1.674 4.37c0 6.26-3.81 7.636-7.437 8.04a3.888 3.888 0 0 1 1.106 3.016c0 2.178-.02 3.935-.02 4.47a.816.816 0 0 0 1.12.782A16.292 16.292 0 0 0 17 1.113z" fill-rule="evenodd"/></svg></a></div><div class="formidableFooter-logo" style="height:50px;margin:0 0 0 auto;overflow:hidden;" data-reactid="34"><a href="https://formidable.com/" style="display:flex;height:inherit;" target="_blank" data-reactid="35"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 30" style="width:auto;height:100%"><title>Formidable</title><path d="M33.2 11.1h5.9v-3H30v14.1h3.2v-5.3h5.2v-2.8h-5.2v-3zM44.1 12a5.3 5.3 0 1 0 5.3 5.3 5.209 5.209 0 0 0-5-5.3h-.3zm0 7.7a2.308 2.308 0 0 1-2.3-2.2v-.2a2.391 2.391 0 0 1 2-2.5 2.31 2.31 0 0 1 2.5 2v.4a2.31 2.31 0 0 1-2 2.5zM53.3 13.6v-1.3h-2.9v9.9h3v-4.4c0-2 1.1-2.7 2.3-2.7a3.4 3.4 0 0 1 1 .1v-2.9a2.2 2.2 0 0 0-.8-.1 2.9 2.9 0 0 0-2.6 1.4zM69.3 12a3.372 3.372 0 0 0-3.1 1.6 2.979 2.979 0 0 0-2.9-1.6 3.7 3.7 0 0 0-2.9 1.4v-1.1h-2.9v9.9h3v-5.8a1.526 1.526 0 0 1 1.5-1.7h.1a1.477 1.477 0 0 1 1.6 1.4v6.1h3v-5.7a1.579 1.579 0 0 1 1.5-1.7h.1a1.617 1.617 0 0 1 1.6 1.4v6.1h3v-6.4a3.474 3.474 0 0 0-3.1-3.8.749.749 0 0 0-.5-.1zM74.5 12.3h3v9.9h-3zM76 7.5a1.8 1.8 0 1 0 1.8 1.8A1.793 1.793 0 0 0 76 7.5zM89 7.8h-3v5.3c-.2-.4-1-1-2.7-1a4.823 4.823 0 0 0-4.8 4.9v.3a4.914 4.914 0 0 0 4.6 5.2h.3a3.257 3.257 0 0 0 2.7-1.2 3.4 3.4 0 0 0 .1 1h2.9c0-.2-.1-.9-.1-1.8zm-5.2 12a2.38 2.38 0 0 1-2.3-2.2v-.3a2.264 2.264 0 1 1 4.5-.5v.4a2.391 2.391 0 0 1-2 2.5.31.31 0 0 0-.2.1zM99 15.8c0-2-1.2-3.8-4.4-3.8-2.9 0-4.2 1.9-4.4 3.3l2.6.5a1.649 1.649 0 0 1 1.7-1.5 1.174 1.174 0 0 1 1.4 1v.1a.684.684 0 0 1-.7.7l-2.2.4a3.058 3.058 0 0 0-2.9 3 3.552 3.552 0 0 0 3.9 3 3.15 3.15 0 0 0 2.3-1.4 3.75 3.75 0 0 0 .1 1.1h2.7a7.569 7.569 0 0 1-.1-1.5v-4.9zm-3 2.5a1.769 1.769 0 0 1-1.4 2h-.4a1.1 1.1 0 0 1-1.2-.8v-.2a1.11 1.11 0 0 1 1.1-1.1l1.9-.3zM106.4 12.1a3.646 3.646 0 0 0-2.9 1.2V7.8h-3v14.5h2.9v-1.1a3.052 3.052 0 0 0 2.8 1.3c2.8 0 4.7-2.2 4.7-5.2s-1.6-5.2-4.5-5.2zm-.6 7.6a2.308 2.308 0 0 1-2.3-2.2v-.2a2.264 2.264 0 1 1 4.5-.5v.4a2.31 2.31 0 0 1-2 2.5zM112 7.8h3v14.5h-3zM125.9 17.1c0-3.2-1.9-5.1-5-5.1a4.951 4.951 0 0 0-5 5v.2a5.045 5.045 0 0 0 4.8 5.3h.4a4.43 4.43 0 0 0 4.6-3.2l-2.5-.7a1.956 1.956 0 0 1-2 1.3 2.26 2.26 0 0 1-2.3-1.9h6.9a1.412 1.412 0 0 0 .1-.9zm-6.9-1a1.96 1.96 0 0 1 2-1.7 1.8 1.8 0 0 1 2 1.5v.1h-4zM12.9 2.4L.8 27.6l12.1-9.9V2.4z"/><path style="isolation:isolate" opacity=".75" d="M12.9 2.4l9.4 18.4-9.4-3.1V2.4z"/><path style="isolation:isolate" opacity=".5" d="M12.9 26.4l9.4-5.6-9.4-3.1v8.7z"/><path style="isolation:isolate" opacity=".25" d="M.8 27.6l12.1-9.9v8.7L.8 27.6z"/></svg></a></div></div></footer><style data-reactid="36">@media only screen and (min-width: 44.063em){ .rmq-408f821a{margin: 0 auto 0 0 !important;}}
+@media only screen and (min-width: 44.063em){ .rmq-58d71aa0{font-size: 3.5em !important;}}
+@media only screen and (min-width: 44.063em){ .rmq-2c70f735{border-bottom: none !important;
+text-align: left !important;}}
+@media only screen and (min-width: 44.063em){ .rmq-320851e{flex-direction: row !important;
+padding-top: 1rem !important;}}</style></div></div>
+    <script async defer type="text/javascript" src="main.90698ffcda200210d3b8.js"></script>
+  </body>
+</html>

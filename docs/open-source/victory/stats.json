@@ -1,0 +1,348 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-about-index-js": [
+      "component---src-pages-about-index-js-aadfccde97acb0cec350.js",
+      "component---src-pages-about-index-js-aadfccde97acb0cec350.js.map"
+    ],
+    "path---gallery-polar-cardioid": [
+      "path---gallery-polar-cardioid-c47f05b8a67e2d0367bd.js",
+      "path---gallery-polar-cardioid-c47f05b8a67e2d0367bd.js.map"
+    ],
+    "path---gallery-victory-area-animation": [
+      "path---gallery-victory-area-animation-6fbda35f563a8d863ef3.js",
+      "path---gallery-victory-area-animation-6fbda35f563a8d863ef3.js.map"
+    ],
+    "path---docs-victory-line": [
+      "path---docs-victory-line-d4e15434e0a9fb9f9493.js",
+      "path---docs-victory-line-d4e15434e0a9fb9f9493.js.map"
+    ],
+    "path---gallery-victory-portal-stacked-area": [
+      "path---gallery-victory-portal-stacked-area-c5e24f418d81c4e7bd20.js",
+      "path---gallery-victory-portal-stacked-area-c5e24f418d81c4e7bd20.js.map"
+    ],
+    "path---docs-victory-primitives": [
+      "path---docs-victory-primitives-eefd47aad983d4e79b2d.js",
+      "path---docs-victory-primitives-eefd47aad983d4e79b2d.js.map"
+    ],
+    "path---gallery-radar-chart": [
+      "path---gallery-radar-chart-6a809f17a747ac8b9546.js",
+      "path---gallery-radar-chart-6a809f17a747ac8b9546.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-1efd80f2142bc9d2cd80.js",
+      "component---src-pages-index-js-1efd80f2142bc9d2cd80.js.map"
+    ],
+    "path---guides-themes": [
+      "path---guides-themes-a0e39f21c11f6a62c5ab.js",
+      "path---guides-themes-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---docs-victory-transition": [
+      "path---docs-victory-transition-8135c62c800f504f3af5.js",
+      "path---docs-victory-transition-8135c62c800f504f3af5.js.map"
+    ],
+    "path---docs-victory-group": [
+      "path---docs-victory-group-93970c5721392feafdb6.js",
+      "path---docs-victory-group-93970c5721392feafdb6.js.map"
+    ],
+    "path---guides-polar-charts": [
+      "path---guides-polar-charts-be3c8fa47b1b052e17b0.js",
+      "path---guides-polar-charts-be3c8fa47b1b052e17b0.js.map"
+    ],
+    "path---docs-victory-shared-events": [
+      "path---docs-victory-shared-events-5811c63c793029da42f6.js",
+      "path---docs-victory-shared-events-5811c63c793029da42f6.js.map"
+    ],
+    "path---": [
+      "path----7a1764c42fd320211013.js",
+      "path----7a1764c42fd320211013.js.map"
+    ],
+    "path---gallery-voronoi-tooltips-grouped": [
+      "path---gallery-voronoi-tooltips-grouped-0805ae19064d3610249d.js",
+      "path---gallery-voronoi-tooltips-grouped-0805ae19064d3610249d.js.map"
+    ],
+    "path---docs-victory-errorbar": [
+      "path---docs-victory-errorbar-79b778aaa95a4c380c19.js",
+      "path---docs-victory-errorbar-79b778aaa95a4c380c19.js.map"
+    ],
+    "path---docs-victory-clip-container": [
+      "path---docs-victory-clip-container-dc7dc4883b35de53051f.js",
+      "path---docs-victory-clip-container-dc7dc4883b35de53051f.js.map"
+    ],
+    "component---src-pages-gallery-index-js": [
+      "component---src-pages-gallery-index-js-03cb3b0690655e590884.js",
+      "component---src-pages-gallery-index-js-03cb3b0690655e590884.js.map"
+    ],
+    "path---docs-victory-legend": [
+      "path---docs-victory-legend-a0a0f47400fd7a7e6220.js",
+      "path---docs-victory-legend-a0a0f47400fd7a7e6220.js.map"
+    ],
+    "path---gallery-horizontal-grouped-bars": [
+      "path---gallery-horizontal-grouped-bars-51e199c56919db3a3bde.js",
+      "path---gallery-horizontal-grouped-bars-51e199c56919db3a3bde.js.map"
+    ],
+    "path---docs-victory-container": [
+      "path---docs-victory-container-503f302d82e4be854233.js",
+      "path---docs-victory-container-503f302d82e4be854233.js.map"
+    ],
+    "path---docs-common-props": [
+      "path---docs-common-props-1046846a9dff739a98a6.js",
+      "path---docs-common-props-1046846a9dff739a98a6.js.map"
+    ],
+    "path---docs-victory-zoom-container": [
+      "path---docs-victory-zoom-container-ca6258f9239087d1a07f.js",
+      "path---docs-victory-zoom-container-ca6258f9239087d1a07f.js.map"
+    ],
+    "path---docs-victory-scatter": [
+      "path---docs-victory-scatter-bf9893081a4a62a10165.js",
+      "path---docs-victory-scatter-bf9893081a4a62a10165.js.map"
+    ],
+    "path---gallery-parallel-brush-axis": [
+      "path---gallery-parallel-brush-axis-df1e357da2053dee3f7c.js",
+      "path---gallery-parallel-brush-axis-df1e357da2053dee3f7c.js.map"
+    ],
+    "path---docs-victory-brush-container": [
+      "path---docs-victory-brush-container-a0ad8c720d46c06c7d4e.js",
+      "path---docs-victory-brush-container-a0ad8c720d46c06c7d4e.js.map"
+    ],
+    "path---gallery-multipoint-tooltip-labels": [
+      "path---gallery-multipoint-tooltip-labels-0d938ea661a81b579cd1.js",
+      "path---gallery-multipoint-tooltip-labels-0d938ea661a81b579cd1.js.map"
+    ],
+    "path---docs-victory-voronoi-container": [
+      "path---docs-victory-voronoi-container-b9d391c7b2722b0fc384.js",
+      "path---docs-victory-voronoi-container-b9d391c7b2722b0fc384.js.map"
+    ],
+    "path---gallery-interpolation": [
+      "path---gallery-interpolation-5d519f3c80fde21327df.js",
+      "path---gallery-interpolation-5d519f3c80fde21327df.js.map"
+    ],
+    "path---guides-data-accessors": [
+      "path---guides-data-accessors-dd140cdfa97e4debf953.js",
+      "path---guides-data-accessors-dd140cdfa97e4debf953.js.map"
+    ],
+    "path---guides-custom-charts": [
+      "path---guides-custom-charts-0f85a5db1497db0658ec.js",
+      "path---guides-custom-charts-0f85a5db1497db0658ec.js.map"
+    ],
+    "path---docs-victory-area": [
+      "path---docs-victory-area-26454f14047f3aabd939.js",
+      "path---docs-victory-area-26454f14047f3aabd939.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-e46cb73e61dfe874e159.js",
+      "component---src-layouts-index-js-e46cb73e61dfe874e159.js.map"
+    ],
+    "path---gallery": [
+      "path---gallery-7c1d55f702310963979d.js",
+      "path---gallery-7c1d55f702310963979d.js.map"
+    ],
+    "path---guides": [
+      "path---guides-47346f38484664adc59e.js",
+      "path---guides-47346f38484664adc59e.js.map"
+    ],
+    "path---gallery-stream-graph": [
+      "path---gallery-stream-graph-a16c8983596a933b1ee4.js",
+      "path---gallery-stream-graph-a16c8983596a933b1ee4.js.map"
+    ],
+    "path---docs": [
+      "path---docs-d3c81299763f40fc6bf8.js",
+      "path---docs-d3c81299763f40fc6bf8.js.map"
+    ],
+    "path---docs-victory-theme": [
+      "path---docs-victory-theme-db2adf4f2f94b5a36222.js",
+      "path---docs-victory-theme-db2adf4f2f94b5a36222.js.map"
+    ],
+    "path---docs-victory-tooltip": [
+      "path---docs-victory-tooltip-8704fdb0d3ddf4d77ae6.js",
+      "path---docs-victory-tooltip-8704fdb0d3ddf4d77ae6.js.map"
+    ],
+    "path---docs-victory-brush-line": [
+      "path---docs-victory-brush-line-443b980b62a115709a13.js",
+      "path---docs-victory-brush-line-443b980b62a115709a13.js.map"
+    ],
+    "path---docs-victory-voronoi": [
+      "path---docs-victory-voronoi-8add367bf4e0a6c893e7.js",
+      "path---docs-victory-voronoi-8add367bf4e0a6c893e7.js.map"
+    ],
+    "path---docs-victory-axis": [
+      "path---docs-victory-axis-1c3f1e5f50a7c24ae5c2.js",
+      "path---docs-victory-axis-1c3f1e5f50a7c24ae5c2.js.map"
+    ],
+    "path---gallery-stacked-polar-bars": [
+      "path---gallery-stacked-polar-bars-91b076c985a8d1e02741.js",
+      "path---gallery-stacked-polar-bars-91b076c985a8d1e02741.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---docs-victory-cursor-container": [
+      "path---docs-victory-cursor-container-3ae0a66c0716a475181e.js",
+      "path---docs-victory-cursor-container-3ae0a66c0716a475181e.js.map"
+    ],
+    "path---gallery-victory-area-stroke": [
+      "path---gallery-victory-area-stroke-154dce1b442d957a262d.js",
+      "path---gallery-victory-area-stroke-154dce1b442d957a262d.js.map"
+    ],
+    "path---gallery-stacked-grouped-bars": [
+      "path---gallery-stacked-grouped-bars-eb108ff5de7aad4dfcd6.js",
+      "path---gallery-stacked-grouped-bars-eb108ff5de7aad4dfcd6.js.map"
+    ],
+    "path---guides-layout": [
+      "path---guides-layout-c63caa4e562acb5a7c51.js",
+      "path---guides-layout-c63caa4e562acb5a7c51.js.map"
+    ],
+    "component---src-layouts-with-sidebar-js": [
+      "component---src-layouts-with-sidebar-js-a84859132723979e80eb.js",
+      "component---src-layouts-with-sidebar-js-a84859132723979e80eb.js.map"
+    ],
+    "path---guides-zoom-large-data": [
+      "path---guides-zoom-large-data-78c3d5282b86d233c9e2.js",
+      "path---guides-zoom-large-data-78c3d5282b86d233c9e2.js.map"
+    ],
+    "path---docs-victory-polar-axis": [
+      "path---docs-victory-polar-axis-6b88f2c7baac7c706fa2.js",
+      "path---docs-victory-polar-axis-6b88f2c7baac7c706fa2.js.map"
+    ],
+    "path---docs-faq": [
+      "path---docs-faq-a3962b791286d3af9a9f.js",
+      "path---docs-faq-a3962b791286d3af9a9f.js.map"
+    ],
+    "path---gallery-victory-pie-center-label": [
+      "path---gallery-victory-pie-center-label-b48a1d54ad36b435611e.js",
+      "path---gallery-victory-pie-center-label-b48a1d54ad36b435611e.js.map"
+    ],
+    "path---docs-victory-pie": [
+      "path---docs-victory-pie-05e269c6413cd3d364ec.js",
+      "path---docs-victory-pie-05e269c6413cd3d364ec.js.map"
+    ],
+    "path---gallery-multiple-dependent-axes": [
+      "path---gallery-multiple-dependent-axes-0af177dff4145f44f893.js",
+      "path---gallery-multiple-dependent-axes-0af177dff4145f44f893.js.map"
+    ],
+    "commons": [
+      "commons-ef13ad1ecba97f74835c.js",
+      "build-js-styles.css",
+      "commons-ef13ad1ecba97f74835c.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-templates-gallery-js": [
+      "component---src-templates-gallery-js-9d18a07bab8d53a6fad9.js",
+      "component---src-templates-gallery-js-9d18a07bab8d53a6fad9.js.map"
+    ],
+    "path---docs-create-container": [
+      "path---docs-create-container-6d18497d2d54231357c7.js",
+      "path---docs-create-container-6d18497d2d54231357c7.js.map"
+    ],
+    "path---docs-victory-stack": [
+      "path---docs-victory-stack-ce71053be0c9bd1d2b4e.js",
+      "path---docs-victory-stack-ce71053be0c9bd1d2b4e.js.map"
+    ],
+    "path---docs-victory-boxplot": [
+      "path---docs-victory-boxplot-ddad2d59d595cbf50a08.js",
+      "path---docs-victory-boxplot-ddad2d59d595cbf50a08.js.map"
+    ],
+    "path---docs-victory-selection-container": [
+      "path---docs-victory-selection-container-a43237861024b1c0713d.js",
+      "path---docs-victory-selection-container-a43237861024b1c0713d.js.map"
+    ],
+    "path---gallery-alternative-events": [
+      "path---gallery-alternative-events-4c5c733fa17ebf916778.js",
+      "path---gallery-alternative-events-4c5c733fa17ebf916778.js.map"
+    ],
+    "path---gallery-brush-zoom": [
+      "path---gallery-brush-zoom-35f105d0baf715a2f745.js",
+      "path---gallery-brush-zoom-35f105d0baf715a2f745.js.map"
+    ],
+    "path---docs-victory-bar": [
+      "path---docs-victory-bar-6308cb3b4dbac6f609b8.js",
+      "path---docs-victory-bar-6308cb3b4dbac6f609b8.js.map"
+    ],
+    "path---guides-events": [
+      "path---guides-events-ea6599dacc27013d7dfe.js",
+      "path---guides-events-ea6599dacc27013d7dfe.js.map"
+    ],
+    "path---docs-common-container-props": [
+      "path---docs-common-container-props-37c3178c12e913903c53.js",
+      "path---docs-common-container-props-37c3178c12e913903c53.js.map"
+    ],
+    "path---gallery-column-chart": [
+      "path---gallery-column-chart-ecf31d082bcdfad003ad.js",
+      "path---gallery-column-chart-ecf31d082bcdfad003ad.js.map"
+    ],
+    "path---guides-tooltips": [
+      "path---guides-tooltips-f7125a8441c53ae843bc.js",
+      "path---guides-tooltips-f7125a8441c53ae843bc.js.map"
+    ],
+    "path---guides-animations": [
+      "path---guides-animations-e3e77642a14880f58b71.js",
+      "path---guides-animations-e3e77642a14880f58b71.js.map"
+    ],
+    "path---docs-victory-chart": [
+      "path---docs-victory-chart-8d306ebf6ddc7e623916.js",
+      "path---docs-victory-chart-8d306ebf6ddc7e623916.js.map"
+    ],
+    "app": [
+      "app-1306c95e2b26fe4106db.js",
+      "build-js-styles.css",
+      "app-1306c95e2b26fe4106db.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---gallery-stacked-bars-central-axis": [
+      "path---gallery-stacked-bars-central-axis-84807465a2b371a78720.js",
+      "path---gallery-stacked-bars-central-axis-84807465a2b371a78720.js.map"
+    ],
+    "component---src-templates-docs-js": [
+      "component---src-templates-docs-js-8d8322911c75a9540b8f.js",
+      "component---src-templates-docs-js-8d8322911c75a9540b8f.js.map"
+    ],
+    "path---docs-victory-candlestick": [
+      "path---docs-victory-candlestick-791c6db76eeb435adb67.js",
+      "path---docs-victory-candlestick-791c6db76eeb435adb67.js.map"
+    ],
+    "path---docs-victory-label": [
+      "path---docs-victory-label-b952d7f23adbf7637321.js",
+      "path---docs-victory-label-b952d7f23adbf7637321.js.map"
+    ],
+    "path---docs-native": [
+      "path---docs-native-f34d78fefc99877e86b6.js",
+      "path---docs-native-f34d78fefc99877e86b6.js.map"
+    ],
+    "path---gallery-custom-tooltip-labels": [
+      "path---gallery-custom-tooltip-labels-0a031796fe844aa5cb56.js",
+      "path---gallery-custom-tooltip-labels-0a031796fe844aa5cb56.js.map"
+    ],
+    "path---docs-victory-portal": [
+      "path---docs-victory-portal-82db44d8ef456745aa4a.js",
+      "path---docs-victory-portal-82db44d8ef456745aa4a.js.map"
+    ],
+    "path---guides-brush-and-zoom": [
+      "path---guides-brush-and-zoom-4645383dee13b3c82bc2.js",
+      "path---guides-brush-and-zoom-4645383dee13b3c82bc2.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---gallery-animating-circular-progress-bar": [
+      "path---gallery-animating-circular-progress-bar-25d933468073bc31eaea.js",
+      "path---gallery-animating-circular-progress-bar-25d933468073bc31eaea.js.map"
+    ],
+    "component---src-pages-guides-themes-js": [
+      "component---src-pages-guides-themes-js-5e36c136bbb0b96562b6.js",
+      "component---src-pages-guides-themes-js-5e36c136bbb0b96562b6.js.map"
+    ],
+    "path---guides-custom-components": [
+      "path---guides-custom-components-06c380451c5ed732f700.js",
+      "path---guides-custom-components-06c380451c5ed732f700.js.map"
+    ],
+    "path---gallery-victory-line-null-data": [
+      "path---gallery-victory-line-null-data-c01741830ceab17f5d9c.js",
+      "path---gallery-victory-line-null-data-c01741830ceab17f5d9c.js.map"
+    ],
+    "path---docs-victory-animation": [
+      "path---docs-victory-animation-16d8c0b44d8eb77f5d7a.js",
+      "path---docs-victory-animation-16d8c0b44d8eb77f5d7a.js.map"
+    ]
+  }
+}
